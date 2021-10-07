@@ -1,0 +1,9 @@
+<map id="include/defs/rs_dev_term.h" name="include/defs/rs_dev_term.h">
+<area shape="rect" id="node1" title=" " alt="" coords="386,5,521,47"/>
+<area shape="rect" id="node2" href="$rs24g__ctl__base_8c.html" title=" " alt="" coords="5,95,131,136"/>
+<area shape="rect" id="node3" href="$rs24g__ctl__motion_8c.html" title=" " alt="" coords="155,95,291,136"/>
+<area shape="rect" id="node4" href="$rs__ctl__cmd_8c.html" title=" " alt="" coords="315,95,442,136"/>
+<area shape="rect" id="node5" href="$rs__ctl__cmd__sc1233_8c.html" title=" " alt="" coords="466,95,593,136"/>
+<area shape="rect" id="node6" href="$rs__term_8h.html" title="Sensor driver implemantation for GPIO on MBED@HRM1017." alt="" coords="617,95,743,136"/>
+<area shape="rect" id="node7" href="$rs__ctl__dev__poc_8cpp.html" title=" " alt="" coords="661,184,800,225"/>
+</map>

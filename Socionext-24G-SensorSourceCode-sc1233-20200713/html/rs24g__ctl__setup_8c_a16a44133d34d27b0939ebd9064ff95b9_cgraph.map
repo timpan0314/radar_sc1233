@@ -1,0 +1,8 @@
+<map id="rs_setup_seq" name="rs_setup_seq">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,105,108"/>
+<area shape="rect" id="node2" href="$rs__ctl__cmd_8c.html#ab8a7403c73dea752b0e3c2d0aa2af1c8" title=" " alt="" coords="153,5,316,32"/>
+<area shape="rect" id="node3" href="$rs__ctl__data_8c.html#adfe5db4f9ad807c12885e6eb8cd13b94" title=" " alt="" coords="370,31,485,57"/>
+<area shape="rect" id="node4" href="$rs__ctl__data_8c.html#a7c365e67841ad66c94b5f047aab8c87b" title=" " alt="" coords="172,107,297,133"/>
+<area shape="rect" id="node6" href="$rs__sleep_8h.html#a3225d3cf811e3fa47d220719edbc2012" title=" " alt="" coords="195,157,274,184"/>
+<area shape="rect" id="node5" href="$rs__ctl__op_8c.html#a9f65759ed66dc605291276f757e07bc6" title=" " alt="" coords="364,107,491,133"/>
+</map>

@@ -1,0 +1,21 @@
+rs_ctl_op.pbi: \
+  E:\STM32L431CCT6\2D\EWARM\source\lib\rs_ctl_lib\rs_ctl_op.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Full.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include\rs24g_types.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include\rs_macro.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include\rs_sleep.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include\rs_ctl_dev.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include/rs24g_types.h \
+  E:\STM32L431CCT6\2D\EWARM\source\lib\rs_ctl_lib\include\rs_ctl_op.h \
+  E:\STM32L431CCT6\2D\EWARM\source\include\defs/rs_dev_opcode.h

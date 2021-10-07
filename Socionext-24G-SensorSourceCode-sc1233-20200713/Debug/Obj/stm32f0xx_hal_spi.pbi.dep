@@ -1,0 +1,38 @@
+stm32f0xx_hal_spi.pbi: \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_exti.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\cmsis_iccarm.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\cmsis_compiler.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\cmsis_version.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\core_cm0.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include\stm32f071xb.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\source\include\stm32f0xx_hal_conf.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h \
+  G:\Socionext-24G-SensorSourceCode-sc1233-20200713\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi.c

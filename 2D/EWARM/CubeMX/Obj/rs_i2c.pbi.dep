@@ -1,0 +1,12 @@
+rs_i2c.pbi: \
+  E:\STM32L431CCT6\CubeMX\EWARM\source\lib\rs_ctl_dev_poc\rs_i2c.cpp \
+  E:\STM32L431CCT6\CubeMX\EWARM\source\lib\rs_ctl_dev_poc\include\rs_i2c.h \
+  E:\STM32L431CCT6\CubeMX\EWARM\source\include\rs24g_types.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Full.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  E:\STM32L431CCT6\CubeMX\EWARM\source\include\defs/rs_dev_addr.h \
+  E:\STM32L431CCT6\CubeMX\EWARM\source\include\defs/rs_dev_opcode.h

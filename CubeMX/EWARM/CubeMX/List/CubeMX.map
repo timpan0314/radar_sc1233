@@ -1,0 +1,1245 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  14/Sep/2021  11:26:25
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Exe\CubeMX.out
+#    Map file     =  E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\List\CubeMX.map
+#    Command line =
+#        -f C:\Users\Pantian\AppData\Local\Temp\EW1793.tmp
+#        (E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\main.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_bin.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_bin_interface.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_code2.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_code2_local.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_2rx.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_base.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_common.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_distance.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_fifo.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_motion.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_sc1233_version.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_sensor_ctl_type.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_setup.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_setup_base.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_setup_range.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_ctl_setup_sc1233_version.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs24g_sample_sc1233.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_cmd.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_cmd_sc1233.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_data.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_dev.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_dev_poc.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_op.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_ctl_sensor_data.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_mutex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\rs_sleep.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_2d.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_bin.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_common.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_distance.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_distance_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_fifo.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_fifo_fft_1rx_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_fifo_fft_2rx_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_fifo_iq_1rx_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_fifo_iq_2rx_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_motion.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\setup_motion_wide.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\startup_stm32l431xx.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_cortex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_dma.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_dma_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_exti.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_flash.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_flash_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_flash_ramfunc.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_gpio.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_i2c.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_i2c_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_msp.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_pwr.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_pwr_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_rcc.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_rcc_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_spi.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_spi_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_tim.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_tim_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_uart.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_hal_uart_ex.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\stm32l4xx_it.o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj\system_stm32l4xx.o --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --no_out_extension -o
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Exe\CubeMX.out --map
+#        E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\List\CubeMX.map --config
+#        E:\STM32L431CCT6\CubeMX\EWARM/stm32l431xx_flash.icf --semihosting
+#        --entry __iar_program_start --redirect
+#        __iar_sh_stdout=__iar_sh_stdout_swo --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__Heap_Handler   = DLMalloc
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 4608, alignment = 8 { };
+define block HEAP with size = 32K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                         0x18c
+  .intvec            ro code   0x800'0000     0x18c  startup_stm32l431xx.o [1]
+                             - 0x800'018c     0x18c
+
+"P1":                                      0x1'2a24
+  .text              ro code   0x800'018c    0x14dc  dlmalloc.o [2]
+  .text              ro code   0x800'1668       0x6  abort.o [2]
+  .text              ro code   0x800'166e      0x3a  zero_init3.o [4]
+  .text              ro code   0x800'16a8      0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x800'16d4       0x6  ABImemclr.o [4]
+  .text              ro code   0x800'16da      0x1e  xencoding_8859_1.o [2]
+  .text              ro code   0x800'16f8      0x14  exit.o [5]
+  .text              ro code   0x800'170c      0x66  ABImemset.o [4]
+  .rodata            const     0x800'1772       0x2  rs24g_bin.o [1]
+  .text              ro code   0x800'1774    0x10c6  xprintffull.o [2]
+  .rodata            const     0x800'283a       0x2  rs24g_ctl_sc1233_version.o [1]
+  .text              ro code   0x800'283c      0x7c  xlocale_c.o [2]
+  .text              ro code   0x800'28b8      0x16  strchr.o [4]
+  .rodata            const     0x800'28ce       0x2  rs24g_ctl_sc1233_version.o [1]
+  .text              ro code   0x800'28d0      0x40  xfail_s.o [2]
+  .text              ro code   0x800'2910      0x36  strlen.o [4]
+  .rodata            const     0x800'2946       0x2  rs24g_ctl_sc1233_version.o [1]
+  .text              ro code   0x800'2948      0x58  memchr.o [4]
+  .text              ro code   0x800'29a0      0xa6  ABImemcpy.o [4]
+  .rodata            const     0x800'2a46       0x2  rs24g_ctl_sc1233_version.o [1]
+  .text              ro code   0x800'2a48      0x70  frexp.o [3]
+  .text              ro code   0x800'2ab8      0x2e  DblCmpLe.o [3]
+  .rodata            const     0x800'2ae6       0x2  rs24g_ctl_setup_sc1233_version.o [1]
+  .text              ro code   0x800'2ae8      0x2e  DblCmpGe.o [3]
+  .rodata            const     0x800'2b16       0x2  rs24g_ctl_setup_sc1233_version.o [1]
+  .text              ro code   0x800'2b18     0x13a  ldexp.o [3]
+  .rodata            const     0x800'2c52       0x2  rs24g_ctl_setup_sc1233_version.o [1]
+  .text              ro code   0x800'2c54      0x3a  DblToS32.o [3]
+  .rodata            const     0x800'2c8e       0x2  rs24g_ctl_setup_sc1233_version.o [1]
+  .text              ro code   0x800'2c90      0x22  S32ToDbl.o [3]
+  .rodata            const     0x800'2cb2       0x2  xlocale_c.o [2]
+  .text              ro code   0x800'2cb4      0xe2  DblSub.o [3]
+  .rodata            const     0x800'2d96       0x2  xlocale_c.o [2]
+  .text              ro code   0x800'2d98     0x246  DblDiv.o [3]
+  .rodata            const     0x800'2fde       0x1  rs24g_bin.o [1]
+  .rodata            const     0x800'2fdf       0x1  rs24g_bin.o [1]
+  .text              ro code   0x800'2fe0      0x28  DblToU32.o [3]
+  .text              ro code   0x800'3008      0x1a  U32ToDbl.o [3]
+  .rodata            const     0x800'3022       0x1  unwind_debug.o [5]
+  .rodata            const     0x800'3023       0x1  xlocale_c.o [2]
+  .text              ro code   0x800'3024     0x1a2  DblMul.o [3]
+  .text              ro code   0x800'31c6       0xa  xmbcurmax.o [2]
+  .text              ro code   0x800'31d0     0x230  I64DivMod.o [4]
+  .text              ro code   0x800'3400     0x16a  DblAdd.o [3]
+  .text              ro code   0x800'356c       0x2  I64DivZer.o [4]
+  .text              ro code   0x800'3570     0xdd8  rs24g_bin.o [1]
+  .text              ro code   0x800'4348       0x4  heaptramp0.o [2]
+  .rodata            const     0x800'434c     0xb20  setup_2d.o [1]
+  .rodata            const     0x800'4e6c     0xb20  setup_2d.o [1]
+  .rodata            const     0x800'598c     0xb20  setup_2d.o [1]
+  .rodata            const     0x800'64ac     0xb20  setup_distance_wide.o [1]
+  .rodata            const     0x800'6fcc     0xb20  setup_distance_wide.o [1]
+  .rodata            const     0x800'7aec     0xb20  setup_distance_wide.o [1]
+  .rodata            const     0x800'860c     0xb20  setup_motion_wide.o [1]
+  .rodata            const     0x800'912c     0xb20  setup_motion_wide.o [1]
+  .rodata            const     0x800'9c4c     0xb20  setup_motion_wide.o [1]
+  .text              ro code   0x800'a76c     0x9cc  stm32l4xx_hal_rcc.o [1]
+  .text              ro code   0x800'b138      0x60  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'b198       0xc  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'b1a4      0x94  stm32l4xx_hal_pwr_ex.o [1]
+  .text              ro code   0x800'b238     0x158  stm32l4xx_hal_cortex.o [1]
+  .text              ro code   0x800'b390     0x952  stm32l4xx_hal_spi.o [1]
+  .text              ro code   0x800'bce4     0x170  stm32l4xx_hal_msp.o [1]
+  .text              ro code   0x800'be54      0x14  memset.o [4]
+  .text              ro code   0x800'be68     0x260  stm32l4xx_hal_gpio.o [1]
+  .text              ro code   0x800'c0c8     0x346  main.o [1]
+  .text              ro code   0x800'c410      0x24  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'c434     0x404  rs24g_sample_sc1233.o [1]
+  .text              ro code   0x800'c838      0x28  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'c860     0x4a0  stm32l4xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'cd00      0xcc  stm32l4xx_hal_i2c.o [1]
+  .text              ro code   0x800'cdcc      0xc6  stm32l4xx_hal_i2c_ex.o [1]
+  .text              ro code   0x800'ce94     0x652  stm32l4xx_hal_uart.o [1]
+  .text              ro code   0x800'd4e8      0x28  printf.o [2]
+  .text              ro code   0x800'd510     0x2ca  rs24g_ctl_setup_base.o [1]
+  .text              ro code   0x800'd7da     0x3ec  rs24g_ctl_motion.o [1]
+  .text              ro code   0x800'dbc8     0x566  rs24g_ctl_base.o [1]
+  .text              ro code   0x800'e130      0x84  rs24g_ctl_sc1233_version.o [1]
+  .text              ro code   0x800'e1b4      0x84  rs24g_ctl_setup_sc1233_version.o [1]
+  .text              ro code   0x800'e238      0xb0  setup_motion.o [1]
+  .text              ro code   0x800'e2e8      0x94  setup_distance.o [1]
+  .text              ro code   0x800'e37c     0x1b4  setup_2d.o [1]
+  .text              ro code   0x800'e530      0x24  setup_fifo.o [1]
+  .text              ro code   0x800'e554     0x158  setup_motion_wide.o [1]
+  .text              ro code   0x800'e6ac     0x1a4  setup_distance_wide.o [1]
+  .text              ro code   0x800'e850      0xaa  setup_fifo_fft_1rx_wide.o [1]
+  .text              ro code   0x800'e8fc      0xaa  setup_fifo_fft_2rx_wide.o [1]
+  .text              ro code   0x800'e9a8      0xaa  setup_fifo_iq_1rx_wide.o [1]
+  .text              ro code   0x800'ea54      0xaa  setup_fifo_iq_2rx_wide.o [1]
+  .text              ro code   0x800'eafe      0xb4  setup_bin.o [1]
+  .text              ro code   0x800'ebb2     0x3c4  rs24g_ctl_setup.o [1]
+  .text              ro code   0x800'ef76      0x18  rs_mutex.o [1]
+  .text              ro code   0x800'ef8e     0x212  rs_ctl_dev.o [1]
+  .text              ro code   0x800'f1a0     0x1aa  rs_ctl_op.o [1]
+  .text              ro code   0x800'f34c      0x26  rs_sleep.o [1]
+  .text              ro code   0x800'f372     0x186  rs_ctl_data.o [1]
+  .text              ro code   0x800'f4f8      0x48  rs24g_bin_interface.o [1]
+  .text              ro code   0x800'f540      0x94  rs_ctl_cmd.o [1]
+  .text              ro code   0x800'f5d4      0xb4  rs_ctl_cmd_sc1233.o [1]
+  .text              ro code   0x800'f688      0xa2  rs24g_ctl_sensor_ctl_type.o [1]
+  .text              ro code   0x800'f72a       0x4  time_trampoline.o [2]
+  .text              ro code   0x800'f730     0x4dc  setup_common.o [1]
+  .text              ro code   0x800'fc0c     0x438  rs24g_ctl_setup_range.o [1]
+  .text              ro code   0x801'0044     0x228  rs_ctl_dev_poc.o [1]
+  .text              ro code   0x801'026c      0x12  time.o [5]
+  .text              ro code   0x801'0280      0x62  round.o [3]
+  .text              ro code   0x801'02e4      0x66  ceil.o [3]
+  .text              ro code   0x801'034c      0x68  floor.o [3]
+  .text              ro code   0x801'03b4     0x440  rs24g_code2.o [1]
+  .text              ro code   0x801'07f4     0x180  rs24g_code2_local.o [1]
+  .rodata            const     0x801'0974     0x100  setup_2d.o [1]
+  .rodata            const     0x801'0a74     0x100  setup_2d.o [1]
+  .rodata            const     0x801'0b74     0x100  setup_2d.o [1]
+  .rodata            const     0x801'0c74     0x100  setup_distance_wide.o [1]
+  .rodata            const     0x801'0d74     0x100  setup_distance_wide.o [1]
+  .rodata            const     0x801'0e74     0x100  setup_distance_wide.o [1]
+  .rodata            const     0x801'0f74     0x100  setup_motion_wide.o [1]
+  .rodata            const     0x801'1074     0x100  setup_motion_wide.o [1]
+  .rodata            const     0x801'1174     0x100  setup_motion_wide.o [1]
+  .rodata            const     0x801'1274      0xdc  setup_motion_wide.o [1]
+  .rodata            const     0x801'1350      0xdc  setup_motion_wide.o [1]
+  .rodata            const     0x801'142c      0xdc  setup_motion_wide.o [1]
+  .rodata            const     0x801'1508      0xd8  setup_2d.o [1]
+  .rodata            const     0x801'15e0      0xd8  setup_2d.o [1]
+  .rodata            const     0x801'16b8      0xd8  setup_2d.o [1]
+  .rodata            const     0x801'1790      0xd8  setup_distance_wide.o [1]
+  .rodata            const     0x801'1868      0xd8  setup_distance_wide.o [1]
+  .rodata            const     0x801'1940      0xd8  setup_distance_wide.o [1]
+  .text              ro code   0x801'1a18      0xd8  xfspos.o [2]
+  .text              ro code   0x801'1af0      0xac  fflush.o [2]
+  .text              ro code   0x801'1b9c       0xc  xfgpos.o [2]
+  .text              ro code   0x801'1ba8      0x4a  lseek.o [5]
+  .text              ro code   0x801'1bf2      0x10  write.o [5]
+  .text              ro code   0x801'1c04      0xcc  XShHandles.o [2]
+  .text              ro code   0x801'1cd0      0x1e  dwrite.o [5]
+  .text              ro code   0x801'1cf0      0x50  iarwstdswo.o [5]
+  .text              ro code   0x801'1d40      0x22  iarwrite.o [5]
+  .text              ro code   0x801'1d62      0xb4  xfwprep.o [2]
+  .text              ro code   0x801'1e16      0x24  fseek.o [2]
+  .text              ro code   0x801'1e3c      0x9c  xfofind.o [2]
+  .text              ro code   0x801'1ed8      0x7e  fclose.o [2]
+  .text              ro code   0x801'1f56      0x18  close.o [5]
+  .text              ro code   0x801'1f6e      0x14  remove.o [5]
+  .text              ro code   0x801'1f82      0x78  lz77_init_single.o [4]
+  .rodata            const     0x801'1ffc      0x70  setup_motion_wide.o [1]
+  .rodata            const     0x801'206c      0x70  setup_motion_wide.o [1]
+  .rodata            const     0x801'20dc      0x70  setup_motion_wide.o [1]
+  .rodata            const     0x801'214c      0x6c  setup_2d.o [1]
+  .rodata            const     0x801'21b8      0x6c  setup_2d.o [1]
+  .rodata            const     0x801'2224      0x6c  setup_2d.o [1]
+  .rodata            const     0x801'2290      0x6c  setup_distance_wide.o [1]
+  .rodata            const     0x801'22fc      0x6c  setup_distance_wide.o [1]
+  .rodata            const     0x801'2368      0x6c  setup_distance_wide.o [1]
+  .text              ro code   0x801'23d4      0x60  system_stm32l4xx.o [1]
+  .text              ro code   0x801'2434      0x54  fputc.o [2]
+  .text              ro code   0x801'2488      0x3c  xcloseall.o [2]
+  .rodata            const     0x801'24c4      0x30  system_stm32l4xx.o [1]
+  .rodata            const     0x801'24f4      0x28  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'251c      0x28  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2544      0x28  rs24g_sample_sc1233.o [1]
+  .text              ro code   0x801'256c      0x28  data_init.o [4]
+  .rodata            const     0x801'2594      0x24  rs24g_sample_sc1233.o [1]
+  .text              ro code   0x801'25b8      0x22  stm32l4xx_it.o [1]
+  .text              ro code   0x801'25dc      0x18  stm32l4xx_hal.o [1]
+  .text              ro code   0x801'25f4      0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x801'2618      0x20  - Linker created -
+  .rodata            const     0x801'2638      0x20  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2658      0x20  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2678      0x20  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2698      0x20  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'26b8      0x20  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'26d8      0x20  setup_2d.o [1]
+  .rodata            const     0x801'26f8      0x20  setup_2d.o [1]
+  .rodata            const     0x801'2718      0x20  setup_2d.o [1]
+  .rodata            const     0x801'2738      0x20  setup_distance_wide.o [1]
+  .rodata            const     0x801'2758      0x20  setup_distance_wide.o [1]
+  .rodata            const     0x801'2778      0x20  setup_distance_wide.o [1]
+  .rodata            const     0x801'2798      0x20  setup_motion_wide.o [1]
+  .rodata            const     0x801'27b8      0x20  setup_motion_wide.o [1]
+  .rodata            const     0x801'27d8      0x20  setup_motion_wide.o [1]
+  .text              ro code   0x801'27f8      0x1e  cmain.o [4]
+  .text              ro code   0x801'2816       0x4  low_level_init.o [2]
+  .text              ro code   0x801'281a       0x4  exit.o [2]
+  .text              ro code   0x801'2820       0xe  cexit.o [4]
+  .rodata            const     0x801'2830      0x1c  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'284c      0x18  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2864      0x18  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'287c      0x18  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2894      0x18  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'28ac      0x18  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'28c4      0x18  rs24g_sample_sc1233.o [1]
+  .text              ro code   0x801'28dc      0x16  xprout.o [2]
+  .text              ro code   0x801'28f4       0xc  putchar.o [2]
+  .rodata            const     0x801'2900      0x14  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2914      0x14  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2928      0x14  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'293c      0x14  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2950      0x10  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2960      0x10  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2970      0x10  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2980      0x10  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'2990      0x10  rs24g_sample_sc1233.o [1]
+  .rodata            const     0x801'29a0      0x10  system_stm32l4xx.o [1]
+  .text              ro code   0x801'29b0      0x10  startup_stm32l431xx.o [1]
+  .rodata            const     0x801'29c0       0xc  rs24g_ctl_setup_range.o [1]
+  .rodata            const     0x801'29cc       0xc  rs24g_ctl_setup_range.o [1]
+  .rodata            const     0x801'29d8       0xc  rs24g_ctl_setup_range.o [1]
+  .rodata            const     0x801'29e4       0xc  rs24g_sample_sc1233.o [1]
+  .text              ro code   0x801'29f0       0xc  cstartup_M.o [4]
+  .rodata            const     0x801'29fc       0x8  rs24g_ctl_setup_range.o [1]
+  .rodata            const     0x801'2a04       0x8  rs24g_ctl_setup_range.o [1]
+  .rodata            const     0x801'2a0c       0x8  system_stm32l4xx.o [1]
+  .rodata            const     0x801'2a14       0x4  rs24g_bin.o [1]
+  .rodata            const     0x801'2a18       0x4  rs24g_bin.o [1]
+  .rodata            const     0x801'2a1c       0x4  rs24g_bin.o [1]
+  .rodata            const     0x801'2a20       0x4  rs24g_bin.o [1]
+  .text              ro code   0x801'2a24       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a28       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a2c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a30       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a34       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a38       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a3c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a40       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a44       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a48       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a4c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a50       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a54       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a58       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a5c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a60       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a64       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a68       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a6c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a70       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a74       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a78       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a7c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a80       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a84       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a88       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a8c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a90       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a94       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a98       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2a9c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2aa0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2aa4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2aa8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2aac       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ab0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ab4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ab8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2abc       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ac0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ac4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ac8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2acc       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ad0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ad4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ad8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2adc       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ae0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ae4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2ae8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2aec       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2af0       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2af4       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2af8       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2afc       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b00       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b04       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b08       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b0c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b10       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b14       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b18       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b1c       0x4  startup_stm32l431xx.o [1]
+  .text              ro code   0x801'2b20       0x0  cstart_closeall.o [4]
+  .rodata            const     0x801'2b20       0x0  zero_init3.o [4]
+  .rodata            const     0x801'2b20       0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x801'2b20      0x90  <for P2-1>
+                             - 0x801'2bb0  0x1'2a24
+
+"P2", part 1 of 3:                            0x188
+  P2-1                        0x2000'0000     0x188  <Init block>
+    .data            inited   0x2000'0000       0x4  rs24g_sample_sc1233.o [1]
+    .data            inited   0x2000'0004       0x4  stm32l4xx_hal.o [1]
+    .data            inited   0x2000'0008       0x4  stm32l4xx_hal.o [1]
+    .data            inited   0x2000'000c       0x4  system_stm32l4xx.o [1]
+    .data            inited   0x2000'0010      0x38  xlocale_c.o [2]
+    .data            inited   0x2000'0048      0x48  xlocale_c.o [2]
+    .data            inited   0x2000'0090      0x48  xfiles.o [2]
+    .data            inited   0x2000'00d8      0x48  xfiles.o [2]
+    .data            inited   0x2000'0120      0x48  xfiles.o [2]
+    .data            inited   0x2000'0168      0x20  xfiles.o [2]
+                            - 0x2000'0188     0x188
+
+"P2", part 2 of 3:                            0xc58
+  .bss               zero     0x2000'0188     0x800  rs24g_sample_sc1233.o [1]
+  .bss               zero     0x2000'0988     0x1d8  dlmalloc.o [2]
+  .bss               zero     0x2000'0b60      0x80  rs_ctl_dev_poc.o [1]
+  .bss               zero     0x2000'0be0      0x80  XShHandles.o [2]
+  .bss               zero     0x2000'0c60      0x64  rs_ctl_dev_poc.o [1]
+  .bss               zero     0x2000'0cc4      0x50  xfiles.o [2]
+  .bss               zero     0x2000'0d14      0x50  xfiles.o [2]
+  .bss               zero     0x2000'0d64      0x4c  rs_ctl_dev_poc.o [1]
+  .bss               zero     0x2000'0db0      0x18  dlmalloc.o [2]
+  .bss               zero     0x2000'0dc8       0x4  rs_ctl_cmd_sc1233.o [1]
+  .bss               zero     0x2000'0dcc       0x4  rs_ctl_dev_poc.o [1]
+  .bss               zero     0x2000'0dd0       0x4  rs_ctl_dev_poc.o [1]
+  .bss               zero     0x2000'0dd4       0x4  stm32l4xx_hal.o [1]
+  .bss               zero     0x2000'0dd8       0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'0ddc       0x4  xfail_s.o [2]
+                            - 0x2000'0de0     0xc58
+
+"P2", part 3 of 3:                           0x9200
+  CSTACK                      0x2000'0de0    0x1200  <Block>
+    CSTACK           uninit   0x2000'0de0    0x1200  <Block tail>
+  HEAP                        0x2000'1fe0    0x8000  <Block>
+    HEAP             uninit   0x2000'1fe0    0x8000  <Block tail>
+                            - 0x2000'9fe0    0x9200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x801'2bb0   0x803'ffff  0x2'd450
+  0x2000'9fe0  0x2000'ffff    0x6020
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc58:
+          0x2000'0188  0xc58
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x90 (36% of destination):
+           0x801'2b20   0x90
+    1 destination range, total size 0x188:
+          0x2000'0000  0x188
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                            ro code  ro data  rw data
+    ------                            -------  -------  -------
+command line/config:
+    -----------------------------------------------------------
+    Total:
+
+E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj: [1]
+    main.o                                838
+    rs24g_bin.o                         3'544       20
+    rs24g_bin_interface.o                  72
+    rs24g_code2.o                       1'088
+    rs24g_code2_local.o                   384
+    rs24g_ctl_base.o                    1'382
+    rs24g_ctl_motion.o                  1'004
+    rs24g_ctl_sc1233_version.o            132        8
+    rs24g_ctl_sensor_ctl_type.o           162
+    rs24g_ctl_setup.o                     964
+    rs24g_ctl_setup_base.o                714
+    rs24g_ctl_setup_range.o             1'080       52
+    rs24g_ctl_setup_sc1233_version.o      132        8
+    rs24g_sample_sc1233.o               1'028      661    2'052
+    rs_ctl_cmd.o                          148
+    rs_ctl_cmd_sc1233.o                   180                 4
+    rs_ctl_data.o                         390
+    rs_ctl_dev.o                          530
+    rs_ctl_dev_poc.o                      552               312
+    rs_ctl_op.o                           426
+    rs_mutex.o                             24
+    rs_sleep.o                             38
+    setup_2d.o                            436   10'380
+    setup_bin.o                           180
+    setup_common.o                      1'244
+    setup_distance.o                      148
+    setup_distance_wide.o                 420   10'380
+    setup_fifo.o                           36
+    setup_fifo_fft_1rx_wide.o             170
+    setup_fifo_fft_2rx_wide.o             170
+    setup_fifo_iq_1rx_wide.o              170
+    setup_fifo_iq_2rx_wide.o              170
+    setup_motion.o                        176
+    setup_motion_wide.o                   344   10'404
+    startup_stm32l431xx.o                 664
+    stm32l4xx_hal.o                       208        3       12
+    stm32l4xx_hal_cortex.o                344
+    stm32l4xx_hal_gpio.o                  608
+    stm32l4xx_hal_i2c.o                   204
+    stm32l4xx_hal_i2c_ex.o                198
+    stm32l4xx_hal_msp.o                   368
+    stm32l4xx_hal_pwr_ex.o                148
+    stm32l4xx_hal_rcc.o                 2'508
+    stm32l4xx_hal_rcc_ex.o              1'184
+    stm32l4xx_hal_spi.o                 2'386
+    stm32l4xx_hal_uart.o                1'618
+    stm32l4xx_it.o                         34
+    system_stm32l4xx.o                     96       73        4
+    -----------------------------------------------------------
+    Total:                             29'044   31'989    2'384
+
+dl7M_tlf.a: [2]
+    XShHandles.o                          204               128
+    abort.o                                 6
+    dlmalloc.o                          5'340               496
+    exit.o                                  4
+    fclose.o                              126
+    fflush.o                              172
+    fputc.o                                84
+    fseek.o                                36
+    heaptramp0.o                            4
+    low_level_init.o                        4
+    printf.o                               40
+    putchar.o                              12
+    time_trampoline.o                       4
+    xcloseall.o                            60
+    xencoding_8859_1.o                     30
+    xfail_s.o                              64                 4
+    xfgpos.o                               12
+    xfiles.o                                        92      408
+    xfofind.o                             156
+    xfspos.o                              216
+    xfwprep.o                             180
+    xgetmemchunk.o                         44                 4
+    xlocale_c.o                           124       52      128
+    xmbcurmax.o                            10
+    xprintffull.o                       4'294
+    xprout.o                               22
+    -----------------------------------------------------------
+    Total:                             11'248      144    1'168
+
+m7M_tls.a: [3]
+    DblAdd.o                              362
+    DblCmpGe.o                             46
+    DblCmpLe.o                             46
+    DblDiv.o                              582
+    DblMul.o                              418
+    DblSub.o                              226
+    DblToS32.o                             58
+    DblToU32.o                             40
+    S32ToDbl.o                             34
+    U32ToDbl.o                             26
+    ceil.o                                102
+    floor.o                               104
+    fpinit_M.o                             34
+    frexp.o                               112
+    ldexp.o                               314
+    round.o                                98
+    -----------------------------------------------------------
+    Total:                              2'602
+
+rt7M_tl.a: [4]
+    ABImemclr.o                             6
+    ABImemcpy.o                           166
+    ABImemset.o                           102
+    I64DivMod.o                           560
+    I64DivZer.o                             2
+    cexit.o                                14
+    cmain.o                                30
+    cstart_closeall.o
+    cstartup_M.o                           12
+    data_init.o                            40
+    lz77_init_single.o                    120
+    memchr.o                               88
+    memset.o                               20
+    strchr.o                               22
+    strlen.o                               54
+    zero_init3.o                           58
+    -----------------------------------------------------------
+    Total:                              1'294
+
+shb_l.a: [5]
+    close.o                                24
+    dwrite.o                               30
+    exit.o                                 20
+    iarwrite.o                             34
+    iarwstdswo.o                           80
+    lseek.o                                74
+    remove.o                               20
+    time.o                                 18
+    unwind_debug.o                                   1
+    write.o                                16
+    -----------------------------------------------------------
+    Total:                                316        1
+
+    Gaps                                   44        6
+    Linker created                                  32   37'376
+---------------------------------------------------------------
+    Grand Total:                       44'548   32'172   40'928
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x801'2618          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'2638          --   Gb  - Linker created -
+?main                    0x801'27f9         Code  Gb  cmain.o [4]
+AHBPrescTable            0x801'29a0   0x10  Data  Gb  system_stm32l4xx.o [1]
+APBPrescTable            0x801'2a0c    0x8  Data  Gb  system_stm32l4xx.o [1]
+BusFault_Handler         0x801'25bf    0x2  Code  Gb  stm32l4xx_it.o [1]
+CSTACK$$Base            0x2000'0de0          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1fe0          --   Gb  - Linker created -
+CacheMore                0x800'2841   0x28  Code  Lc  xlocale_c.o [2]
+DebugMon_Handler         0x801'25c5    0x2  Code  Gb  stm32l4xx_it.o [1]
+EXTI0_IRQHandler         0x801'25d1    0xa  Code  Gb  stm32l4xx_it.o [1]
+Error_Handler            0x800'c40d    0x2  Code  Gb  main.o [1]
+HAL_Delay                0x800'c839   0x28  Code  Wk  stm32l4xx_hal.o [1]
+HAL_GPIO_EXTI_Callback   0x800'c3af   0x2c  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'c07b   0x20  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'be69  0x1ca  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'c033   0x16  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x800'c061   0x1a  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'c049   0x18  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'b199    0xc  Code  Wk  stm32l4xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x800'cdcd   0x64  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                         0x800'ce31   0x62  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2C_Init             0x800'cd01   0xcc  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_MspInit          0x800'bd13   0x60  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_IncTick              0x801'25dd   0x18  Code  Wk  stm32l4xx_hal.o [1]
+HAL_Init                 0x800'c411   0x24  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick             0x800'b139   0x60  Code  Wk  stm32l4xx_hal.o [1]
+HAL_MspInit              0x800'bce5   0x2e  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'b357    0xe  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'b32d   0x2a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'b321    0xc  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PWREx_ControlVoltageScaling
+                         0x800'b1b1   0x76  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_GetVoltageRange
+                         0x800'b1a5    0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'c861  0x304  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'ae07  0x14c  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq      0x800'b027    0x6  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'b02d   0x1a  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'b047   0x1a  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'af53   0xd4  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'a76d  0x69a  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_SPI_Init             0x800'b391   0xc4  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_MspInit          0x800'bd73   0x62  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_SPI_Receive          0x800'b63d  0x1a4  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Transmit         0x800'b455  0x1e8  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                         0x800'b7e1  0x2ce  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SYSTICK_Config       0x800'b365    0xc  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_UART_Init            0x800'ce95   0x7a  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'bdd5   0x64  Code  Gb  stm32l4xx_hal_msp.o [1]
+HEAP$$Base              0x2000'1fe0          --   Gb  - Linker created -
+HEAP$$Limit             0x2000'9fe0          --   Gb  - Linker created -
+HardFault_Handler        0x801'25bb    0x2  Code  Gb  stm32l4xx_it.o [1]
+MSIRangeTable            0x801'24c4   0x30  Data  Gb  system_stm32l4xx.o [1]
+MX_GPIO_Init             0x800'c2a9  0x106  Code  Lc  main.o [1]
+MX_I2C1_Init             0x800'c1c3   0x5a  Code  Lc  main.o [1]
+MX_SPI1_Init             0x800'c21d   0x50  Code  Lc  main.o [1]
+MX_USART1_UART_Init      0x800'c26d   0x3c  Code  Lc  main.o [1]
+MemManage_Handler        0x801'25bd    0x2  Code  Gb  stm32l4xx_it.o [1]
+NMI_Handler              0x801'25b9    0x2  Code  Gb  stm32l4xx_it.o [1]
+NVIC_EncodePriority      0x800'b2b1   0x40  Code  Lc  stm32l4xx_hal_cortex.o [1]
+PendSV_Handler           0x801'25c7    0x2  Code  Gb  stm32l4xx_it.o [1]
+RCCEx_PLLSAI1_Config     0x800'cb79  0x16e  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                         0x800'b075   0x8a  Code  Lc  stm32l4xx_hal_rcc.o [1]
+Region$$Table$$Base      0x801'2618          --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'2638          --   Gb  - Linker created -
+SPI_EndRxTransaction     0x800'bbf3   0x86  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_EndRxTxTransaction   0x800'bc79   0x6a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WaitFifoStateUntilTimeout
+                         0x800'bb4f   0xa4  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                         0x800'baaf   0xa0  Code  Lc  stm32l4xx_hal_spi.o [1]
+SVC_Handler              0x801'25c3    0x2  Code  Gb  stm32l4xx_it.o [1]
+SysTick_Config           0x800'b2f1   0x30  Code  Lc  stm32l4xx_hal_cortex.o [1]
+SysTick_Handler          0x801'25c9    0x8  Code  Gb  stm32l4xx_it.o [1]
+SystemClock_Config       0x800'c12d   0x96  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit               0x801'23d5   0x42  Code  Gb  system_stm32l4xx.o [1]
+UART_AdvFeatureConfig    0x800'd2f5   0xda  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_CheckIdleState      0x800'd3cf   0x68  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_SetConfig           0x800'cf0f  0x3c2  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                         0x800'd437   0xb0  Code  Gb  stm32l4xx_hal_uart.o [1]
+UsageFault_Handler       0x801'25c1    0x2  Code  Gb  stm32l4xx_it.o [1]
+_Close_all               0x801'2489   0x3c  Code  Gb  xcloseall.o [2]
+_Encoding_8859_1_Mbrlen
+                         0x800'16ed    0x2  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Wctomb
+                         0x800'16db   0x12  Code  Gb  xencoding_8859_1.o [2]
+_Files                  0x2000'0168   0x20  Data  Gb  xfiles.o [2]
+_Fofree                  0x801'1e3d   0x96  Code  Gb  xfofind.o [2]
+_Fspos                   0x801'1a19   0xd8  Code  Gb  xfspos.o [2]
+_Fwprep                  0x801'1d63   0xb4  Code  Gb  xfwprep.o [2]
+_LitobFull               0x800'2687  0x10a  Code  Lc  xprintffull.o [2]
+_Locale_lconv           0x2000'0010   0x38  Data  Lc  xlocale_c.o [2]
+_Main                    0x800'c6ef   0xda  Code  Gb  rs24g_sample_sc1233.o [1]
+_Nnl                     0x801'1b9d    0xc  Code  Gb  xfgpos.o [2]
+_PrintfFull              0x800'1775  0xcc4  Code  Gb  xprintffull.o [2]
+_Prout                   0x801'28dd   0x16  Code  Gb  xprout.o [2]
+_PutcharsFull            0x800'27f9   0x2e  Code  Lc  xprintffull.o [2]
+_PutstrFull              0x800'25c7   0xc0  Code  Lc  xprintffull.o [2]
+_PuttxtFull              0x800'24bb  0x10c  Code  Lc  xprintffull.o [2]
+__NVIC_EnableIRQ         0x800'b267   0x1e  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__NVIC_GetPriorityGrouping
+                         0x800'b25b    0xc  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__NVIC_SetPriority       0x800'b285   0x2c  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__NVIC_SetPriorityGrouping
+                         0x800'b239   0x22  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__aeabi_cdcmple          0x800'2ab9         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'2ae9         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz             0x800'2c55         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'2fe1         Code  Gb  DblToU32.o [3]
+__aeabi_ddiv             0x800'2d99         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'3025         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'2cb5         Code  Gb  DblSub.o [3]
+__aeabi_i2d              0x800'2c91         Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x800'356d         Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x800'16d5         Code  Gb  ABImemclr.o [4]
+__aeabi_memcpy           0x800'29a1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4          0x800'29c1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'29c1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset           0x800'170d         Code  Gb  ABImemset.o [4]
+__aeabi_ui2d             0x800'3009         Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod         0x800'31d1         Code  Gb  I64DivMod.o [4]
+__cexit_closeall         0x801'2823         Code  Gb  cexit.o [4]
+__close                  0x801'1f57   0x18  Code  Gb  close.o [5]
+__cmain                  0x801'27f9         Code  Gb  cmain.o [4]
+__cstart_closeall        0x801'2b20         Data  Gb  cstart_closeall.o [4]
+__data_GetMemChunk       0x800'16a9   0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'0dd8    0x4  Data  Lc  xgetmemchunk.o [2]
+__dwrite                 0x801'1cd1   0x1e  Code  Gb  dwrite.o [5]
+__exit                   0x800'16f9   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s             0x800'28d1   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Mbcurmax           0x800'31c7    0xa  Code  Gb  xmbcurmax.o [2]
+__iar_Memchr             0x800'2949         Code  Gb  memchr.o [4]
+__iar_Memset             0x800'170d         Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'1715         Code  Gb  ABImemset.o [4]
+__iar_Stderr            0x2000'0120   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdin             0x2000'0090   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x2000'00d8   0x48  Data  Gb  xfiles.o [2]
+__iar_Strchr             0x800'28b9         Code  Gb  strchr.o [4]
+__iar_ceil64             0x801'02f5         Code  Gb  ceil.o [3]
+__iar_dadd               0x800'2cc5         Code  Gb  DblSub.o [3]
+__iar_data_init3         0x801'256d   0x28  Code  Gb  data_init.o [4]
+__iar_debug_exceptions   0x800'3022    0x1  Data  Gb  unwind_debug.o [5]
+__iar_dlcalloc           0x800'1625   0x3e  Code  Gb  dlmalloc.o [2]
+__iar_dlfree             0x800'1103  0x51e  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x800'0215  0xeee  Code  Gb  dlmalloc.o [2]
+__iar_dsub               0x800'3401         Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'3413         Code  Gb  DblAdd.o [3]
+__iar_floor64            0x801'035d         Code  Gb  floor.o [3]
+__iar_frexp              0x800'2a55         Code  Gb  frexp.o [3]
+__iar_frexpl             0x800'2a55         Code  Gb  frexp.o [3]
+__iar_globLocale        0x2000'0048   0x48  Data  Lc  xlocale_c.o [2]
+__iar_global_Locale      0x800'283d    0x4  Code  Gb  xlocale_c.o [2]
+__iar_init_vfp           0x801'25f5         Code  Gb  fpinit_M.o [3]
+__iar_ldexp64            0x800'2b19         Code  Gb  ldexp.o [3]
+__iar_lz77_init_single3
+                         0x801'1f83   0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x801'29f1         Code  Gb  cstartup_M.o [4]
+__iar_round64            0x801'0291         Code  Gb  round.o [3]
+__iar_scalbln64          0x800'2b19         Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x800'2b19         Code  Gb  ldexp.o [3]
+__iar_sh_Discard         0x801'1c05   0x42  Code  Gb  XShHandles.o [2]
+__iar_sh_Move            0x801'1c47   0x46  Code  Gb  XShHandles.o [2]
+__iar_sh_Pos             0x801'1c8d   0x3e  Code  Gb  XShHandles.o [2]
+__iar_sh_stdout_swo      0x801'1cf1   0x50  Code  Gb  iarwstdswo.o [5]
+__iar_sh_write           0x801'1d41   0x22  Code  Gb  iarwrite.o [5]
+__iar_softfp___iar_frexp64
+                         0x800'2a49         Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x800'2a49         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x800'2a49         Code  Gb  frexp.o [3]
+__iar_vfp___iar_ceil64   0x801'02e5         Code  Gb  ceil.o [3]
+__iar_vfp___iar_floor64
+                         0x801'034d         Code  Gb  floor.o [3]
+__iar_vfp___iar_round64
+                         0x801'0281         Code  Gb  round.o [3]
+__iar_vfp_ceil           0x801'02e5         Code  Gb  ceil.o [3]
+__iar_vfp_ceill          0x801'02e5         Code  Gb  ceil.o [3]
+__iar_vfp_floor          0x801'034d         Code  Gb  floor.o [3]
+__iar_vfp_floorl         0x801'034d         Code  Gb  floor.o [3]
+__iar_vfp_round          0x801'0281         Code  Gb  round.o [3]
+__iar_vfp_roundl         0x801'0281         Code  Gb  round.o [3]
+__iar_zero_init3         0x800'166f   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x801'2817    0x4  Code  Gb  low_level_init.o [2]
+__lseek                  0x801'1ba9   0x4a  Code  Gb  lseek.o [5]
+__time32                 0x801'026d   0x12  Code  Gb  time.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32l431xx.o [1]
+__write                  0x801'1bf3   0x10  Code  Gb  write.o [5]
+_call_main               0x801'2805         Code  Gb  cmain.o [4]
+_exit                    0x801'2821         Code  Gb  cexit.o [4]
+_gLocale_mblen           0x800'28a5    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_mblenInt        0x800'2869   0x2c  Code  Gb  xlocale_c.o [2]
+_gLocale_wctomb          0x800'28a9    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_wctombInt       0x800'28a1    0x4  Code  Gb  xlocale_c.o [2]
+_gm_                    0x2000'0988  0x1d8  Data  Lc  dlmalloc.o [2]
+_main                    0x801'2813         Code  Gb  cmain.o [4]
+abort                    0x800'1669    0x6  Code  Gb  abort.o [2]
+add_section              0x800'39dd   0x20  Code  Lc  rs24g_bin.o [1]
+bin_getcode              0x800'eaff   0x8a  Code  Gb  setup_bin.o [1]
+bin_getmode              0x800'eb89   0x2a  Code  Gb  setup_bin.o [1]
+bload16                  0x800'3661   0x3c  Code  Lc  rs24g_bin.o [1]
+bload16                  0x801'03b5   0x3c  Code  Lc  rs24g_code2.o [1]
+bload16a                 0x801'0481   0x30  Code  Lc  rs24g_code2.o [1]
+bload32                  0x800'369d   0x54  Code  Lc  rs24g_bin.o [1]
+bload32                  0x801'03f1   0x54  Code  Lc  rs24g_code2.o [1]
+bload32a                 0x801'04b1   0x30  Code  Lc  rs24g_code2.o [1]
+bload32s                 0x801'04e1   0x14  Code  Lc  rs24g_code2.o [1]
+bload8                   0x800'363d   0x24  Code  Lc  rs24g_bin.o [1]
+bload8a                  0x800'36f1   0x3c  Code  Lc  rs24g_bin.o [1]
+bload8a                  0x801'0445   0x3c  Code  Lc  rs24g_code2.o [1]
+bsave16                  0x800'3593   0x30  Code  Lc  rs24g_bin.o [1]
+bsave32                  0x800'35c3   0x3e  Code  Lc  rs24g_bin.o [1]
+bsave8                   0x800'3571   0x22  Code  Lc  rs24g_bin.o [1]
+bsave8a                  0x800'3601   0x3c  Code  Lc  rs24g_bin.o [1]
+ceil                     0x801'02f5         Code  Gb  ceil.o [3]
+ceill                    0x801'02f5         Code  Gb  ceil.o [3]
+check_header             0x800'3781   0x76  Code  Lc  rs24g_bin.o [1]
+choice_chirp_time        0x801'29cc    0xc  Data  Lc  rs24g_ctl_setup_range.o [1]
+choice_digital_beam_shaper
+                         0x801'2a04    0x8  Data  Lc  rs24g_ctl_setup_range.o [1]
+choice_distance_step     0x801'29d8    0xc  Data  Lc  rs24g_ctl_setup_range.o [1]
+choice_high_pass_filter
+                         0x801'29fc    0x8  Data  Lc  rs24g_ctl_setup_range.o [1]
+choice_rx_gain           0x801'29c0    0xc  Data  Lc  rs24g_ctl_setup_range.o [1]
+data_section_header_size
+                         0x801'2a20    0x4  Data  Lc  rs24g_bin.o [1]
+distance_init            0x800'e2e9   0x2e  Code  Gb  setup_distance.o [1]
+distance_wide_getcode    0x800'e6ad  0x150  Code  Gb  setup_distance_wide.o [1]
+distance_wide_update_param
+                         0x800'e815   0x3c  Code  Gb  setup_distance_wide.o [1]
+ebuf                    0x2000'0cc4   0x50  Data  Lc  xfiles.o [2]
+effective_chirp_bandwidth
+                         0x800'f8d3   0x1c  Code  Gb  setup_common.o [1]
+exit                     0x801'281b    0x4  Code  Gb  exit.o [2]
+fclose                   0x801'1ed9   0x7e  Code  Gb  fclose.o [2]
+fflush                   0x801'1b65   0x34  Code  Gb  fflush.o [2]
+fflushOne                0x801'1af1   0x74  Code  Lc  fflush.o [2]
+fifo_fft_1rx_wide_getcode
+                         0x800'e851   0x7a  Code  Gb  setup_fifo_fft_1rx_wide.o [1]
+fifo_fft_1rx_wide_update_param
+                         0x800'e8d9   0x22  Code  Gb  setup_fifo_fft_1rx_wide.o [1]
+fifo_fft_2rx_wide_getcode
+                         0x800'e8fd   0x7a  Code  Gb  setup_fifo_fft_2rx_wide.o [1]
+fifo_fft_2rx_wide_update_param
+                         0x800'e985   0x22  Code  Gb  setup_fifo_fft_2rx_wide.o [1]
+fifo_init                0x800'e531   0x24  Code  Gb  setup_fifo.o [1]
+fifo_iq_1rx_wide_getcode
+                         0x800'e9a9   0x7a  Code  Gb  setup_fifo_iq_1rx_wide.o [1]
+fifo_iq_1rx_wide_update_param
+                         0x800'ea31   0x22  Code  Gb  setup_fifo_iq_1rx_wide.o [1]
+fifo_iq_2rx_wide_getcode
+                         0x800'ea55   0x7a  Code  Gb  setup_fifo_iq_2rx_wide.o [1]
+fifo_iq_2rx_wide_update_param
+                         0x800'eadd   0x22  Code  Gb  setup_fifo_iq_2rx_wide.o [1]
+floor                    0x801'035d         Code  Gb  floor.o [3]
+floorl                   0x801'035d         Code  Gb  floor.o [3]
+fputc                    0x801'2435   0x54  Code  Gb  fputc.o [2]
+free                     0x800'4349    0x4  Code  Gb  heaptramp0.o [2]
+free_data_section        0x800'372d   0x1a  Code  Lc  rs24g_bin.o [1]
+free_general_section     0x800'3747   0x1a  Code  Lc  rs24g_bin.o [1]
+free_section             0x800'3761   0x20  Code  Lc  rs24g_bin.o [1]
+fseek                    0x801'1e17   0x24  Code  Gb  fseek.o [2]
+get_data_section_size    0x800'37f7   0x18  Code  Lc  rs24g_bin.o [1]
+get_expected_crc         0x800'ec57   0x3c  Code  Lc  rs24g_ctl_setup.o [1]
+header_magic             0x800'2fde    0x1  Data  Lc  rs24g_bin.o [1]
+header_reserved1         0x800'2fdf    0x1  Data  Lc  rs24g_bin.o [1]
+header_reserved2         0x801'2a18    0x4  Data  Lc  rs24g_bin.o [1]
+header_reserved3         0x800'1772    0x2  Data  Lc  rs24g_bin.o [1]
+header_size              0x801'2a14    0x4  Data  Lc  rs24g_bin.o [1]
+hi2c1                   0x2000'0d64   0x4c  Data  Gb  rs_ctl_dev_poc.o [1]
+hspi1                   0x2000'0c60   0x64  Data  Gb  rs_ctl_dev_poc.o [1]
+huart1                  0x2000'0b60   0x80  Data  Gb  rs_ctl_dev_poc.o [1]
+init_mparams             0x800'01a7   0x2c  Code  Lc  dlmalloc.o [2]
+init_top                 0x800'01d3   0x34  Code  Lc  dlmalloc.o [2]
+is_detect_triggered     0x2000'0dd0    0x4  Data  Gb  rs_ctl_dev_poc.o [1]
+is_or_triggered         0x2000'0dcc    0x4  Data  Gb  rs_ctl_dev_poc.o [1]
+ldexp                    0x800'2b19         Code  Gb  ldexp.o [3]
+ldexpl                   0x800'2b19         Code  Gb  ldexp.o [3]
+load_data_section        0x800'38a7   0x96  Code  Lc  rs24g_bin.o [1]
+load_general_section     0x800'3975   0x68  Code  Lc  rs24g_bin.o [1]
+load_sections            0x800'3a81  0x118  Code  Lc  rs24g_bin.o [1]
+localeconv               0x800'28ad    0x4  Code  Gb  xlocale_c.o [2]
+lprintf                  0x800'c435   0x12  Code  Gb  rs24g_sample_sc1233.o [1]
+main                     0x800'c0c9   0x64  Code  Gb  main.o [1]
+memchr                   0x800'2949         Code  Gb  memchr.o [4]
+memset                   0x800'be55   0x14  Code  Gb  memset.o [4]
+mode_2d_getcode          0x800'e3a7  0x13a  Code  Gb  setup_2d.o [1]
+mode_2d_init             0x800'e37d   0x2a  Code  Gb  setup_2d.o [1]
+mode_2d_normal_50db_220us
+                         0x801'26d8   0x20  Data  Lc  setup_2d.o [1]
+mode_2d_normal_50db_220us_fftwin
+                         0x801'0974  0x100  Data  Lc  setup_2d.o [1]
+mode_2d_normal_50db_220us_regaddr
+                         0x801'214c   0x6c  Data  Lc  setup_2d.o [1]
+mode_2d_normal_50db_220us_regval
+                         0x801'1508   0xd8  Data  Lc  setup_2d.o [1]
+mode_2d_normal_50db_220us_seq
+                         0x800'434c  0xb20  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_1100us
+                         0x801'26f8   0x20  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_1100us_fftwin
+                         0x801'0a74  0x100  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_1100us_regaddr
+                         0x801'21b8   0x6c  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_1100us_regval
+                         0x801'15e0   0xd8  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_1100us_seq
+                         0x800'4e6c  0xb20  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_220us
+                         0x801'2718   0x20  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_220us_fftwin
+                         0x801'0b74  0x100  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_220us_regaddr
+                         0x801'2224   0x6c  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_220us_regval
+                         0x801'16b8   0xd8  Data  Lc  setup_2d.o [1]
+mode_2d_normal_60db_220us_seq
+                         0x800'598c  0xb20  Data  Lc  setup_2d.o [1]
+mode_2d_update_param     0x800'e4f5   0x3c  Code  Gb  setup_2d.o [1]
+mode_distance_wide_normal_50db_220us
+                         0x801'2738   0x20  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_50db_220us_fftwin
+                         0x801'0c74  0x100  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_50db_220us_regaddr
+                         0x801'2290   0x6c  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_50db_220us_regval
+                         0x801'1790   0xd8  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_50db_220us_seq
+                         0x800'64ac  0xb20  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_1100us
+                         0x801'2758   0x20  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_1100us_fftwin
+                         0x801'0d74  0x100  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_1100us_regaddr
+                         0x801'22fc   0x6c  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_1100us_regval
+                         0x801'1868   0xd8  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_1100us_seq
+                         0x800'6fcc  0xb20  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_220us
+                         0x801'2778   0x20  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_220us_fftwin
+                         0x801'0e74  0x100  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_220us_regaddr
+                         0x801'2368   0x6c  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_220us_regval
+                         0x801'1940   0xd8  Data  Lc  setup_distance_wide.o [1]
+mode_distance_wide_normal_60db_220us_seq
+                         0x800'7aec  0xb20  Data  Lc  setup_distance_wide.o [1]
+mode_motion_wide_50db_220us
+                         0x801'2798   0x20  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_50db_220us_fftwin
+                         0x801'0f74  0x100  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_50db_220us_regaddr
+                         0x801'1ffc   0x70  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_50db_220us_regval
+                         0x801'1274   0xdc  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_50db_220us_seq
+                         0x800'860c  0xb20  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_1100us
+                         0x801'27b8   0x20  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_1100us_fftwin
+                         0x801'1074  0x100  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_1100us_regaddr
+                         0x801'206c   0x70  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_1100us_regval
+                         0x801'1350   0xdc  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_1100us_seq
+                         0x800'912c  0xb20  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_220us
+                         0x801'27d8   0x20  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_220us_fftwin
+                         0x801'1174  0x100  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_220us_regaddr
+                         0x801'20dc   0x70  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_220us_regval
+                         0x801'142c   0xdc  Data  Lc  setup_motion_wide.o [1]
+mode_motion_wide_60db_220us_seq
+                         0x800'9c4c  0xb20  Data  Lc  setup_motion_wide.o [1]
+motion_cal_sm_data      0x2000'0188  0x800  Data  Lc  rs24g_sample_sc1233.o [1]
+motion_cal_sm_data_num  0x2000'0000    0x4  Data  Lc  rs24g_sample_sc1233.o [1]
+motion_init              0x800'e239   0x32  Code  Gb  setup_motion.o [1]
+motion_wide_getcode      0x800'e555   0xf0  Code  Gb  setup_motion_wide.o [1]
+motion_wide_update_param
+                         0x800'e659   0x54  Code  Gb  setup_motion_wide.o [1]
+mparams                 0x2000'0db0   0x18  Data  Lc  dlmalloc.o [2]
+obuf                    0x2000'0d14   0x50  Data  Lc  xfiles.o [2]
+param_check_choice_local
+                         0x800'fde1   0x42  Code  Lc  rs24g_ctl_setup_range.o [1]
+param_check_range_local
+                         0x800'fd91   0x50  Code  Lc  rs24g_ctl_setup_range.o [1]
+point_per_chirp          0x800'f8f1   0x96  Code  Gb  setup_common.o [1]
+presence_mode            0x800'c5d9  0x116  Code  Gb  rs24g_sample_sc1233.o [1]
+printf                   0x800'd4e9   0x28  Code  Gb  printf.o [2]
+putchar                  0x801'28f5    0xc  Code  Gb  putchar.o [2]
+read_modify_write_reg    0x800'f731   0x3e  Code  Gb  setup_common.o [1]
+remove                   0x801'1f6f   0x14  Code  Gb  remove.o [5]
+round                    0x801'0291         Code  Gb  round.o [3]
+roundl                   0x801'0291         Code  Gb  round.o [3]
+rs24g_ctl_sc1233_version_hotfix
+                         0x800'2a46    0x2  Data  Gb  rs24g_ctl_sc1233_version.o [1]
+rs24g_ctl_sc1233_version_major
+                         0x800'283a    0x2  Data  Gb  rs24g_ctl_sc1233_version.o [1]
+rs24g_ctl_sc1233_version_minor
+                         0x800'28ce    0x2  Data  Gb  rs24g_ctl_sc1233_version.o [1]
+rs24g_ctl_sc1233_version_revision
+                         0x800'2946    0x2  Data  Gb  rs24g_ctl_sc1233_version.o [1]
+rs24g_ctl_setup_sc1233_version_hotfix
+                         0x800'2c8e    0x2  Data  Gb  rs24g_ctl_setup_sc1233_version.o [1]
+rs24g_ctl_setup_sc1233_version_major
+                         0x800'2ae6    0x2  Data  Gb  rs24g_ctl_setup_sc1233_version.o [1]
+rs24g_ctl_setup_sc1233_version_minor
+                         0x800'2b16    0x2  Data  Gb  rs24g_ctl_setup_sc1233_version.o [1]
+rs24g_ctl_setup_sc1233_version_revision
+                         0x800'2c52    0x2  Data  Gb  rs24g_ctl_setup_sc1233_version.o [1]
+rs24g_mutex_destroy      0x800'dbed   0x18  Code  Lc  rs24g_ctl_base.o [1]
+rs24g_mutex_init         0x800'dbc9   0x24  Code  Lc  rs24g_ctl_base.o [1]
+rs24g_mutex_lock         0x800'dc05   0x18  Code  Lc  rs24g_ctl_base.o [1]
+rs24g_mutex_lock         0x800'd7db   0x18  Code  Lc  rs24g_ctl_motion.o [1]
+rs24g_mutex_lock         0x800'f689   0x18  Code  Lc  rs24g_ctl_sensor_ctl_type.o [1]
+rs24g_mutex_lock         0x800'ebb3   0x18  Code  Lc  rs24g_ctl_setup.o [1]
+rs24g_mutex_unlock       0x800'dc1d   0x18  Code  Lc  rs24g_ctl_base.o [1]
+rs24g_mutex_unlock       0x800'd7f3   0x18  Code  Lc  rs24g_ctl_motion.o [1]
+rs24g_mutex_unlock       0x800'f6a1   0x18  Code  Lc  rs24g_ctl_sensor_ctl_type.o [1]
+rs24g_mutex_unlock       0x800'ebcb   0x18  Code  Lc  rs24g_ctl_setup.o [1]
+rs_bin_add_data_section
+                         0x800'3ca1   0x88  Code  Gb  rs24g_bin.o [1]
+rs_bin_add_general_section
+                         0x800'3d29   0x82  Code  Gb  rs24g_bin.o [1]
+rs_bin_alloc             0x800'3bd9   0x76  Code  Gb  rs24g_bin.o [1]
+rs_bin_free              0x800'3c4f   0x52  Code  Gb  rs24g_bin.o [1]
+rs_bin_get_code_section
+                         0x800'42c5   0x3a  Code  Gb  rs24g_bin.o [1]
+rs_bin_get_data_section
+                         0x800'42ff   0x4a  Code  Gb  rs24g_bin.o [1]
+rs_bin_get_size          0x800'4269   0x50  Code  Gb  rs24g_bin.o [1]
+rs_bin_interface_get     0x800'f4f9   0x48  Code  Gb  rs24g_bin_interface.o [1]
+rs_bin_load              0x800'3dab  0x272  Code  Gb  rs24g_bin.o [1]
+rs_bin_save              0x800'4029  0x238  Code  Gb  rs24g_bin.o [1]
+rs_calc_crc16            0x800'f373   0x42  Code  Gb  rs_ctl_data.o [1]
+rs_close                 0x800'ddcf   0x58  Code  Gb  rs24g_ctl_base.o [1]
+rs_code2_alloc           0x801'04f5  0x114  Code  Gb  rs24g_code2.o [1]
+rs_code2_alloc_fft_data
+                         0x801'0895   0x40  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_alloc_reg_addr_and_data
+                         0x801'0835   0x60  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_alloc_seq_data
+                         0x801'07f5   0x40  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_free            0x801'0609   0x5c  Code  Gb  rs24g_code2.o [1]
+rs_code2_free_fft_data   0x801'0945   0x30  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_free_reg_addr_and_data
+                         0x801'0905   0x40  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_free_seq_data   0x801'08d5   0x30  Code  Gb  rs24g_code2_local.o [1]
+rs_code2_load_minimum_from_bin
+                         0x801'0665  0x190  Code  Gb  rs24g_code2.o [1]
+rs_ctl_cmd_chipboot_sc1233
+                         0x800'f5d5   0xb4  Code  Gb  rs_ctl_cmd_sc1233.o [1]
+rs_ctl_cmd_disable_seq   0x800'f56b   0x24  Code  Gb  rs_ctl_cmd.o [1]
+rs_ctl_cmd_enable_seq    0x800'f58f   0x3c  Code  Gb  rs_ctl_cmd.o [1]
+rs_ctl_cmd_shutdown      0x800'f541   0x2a  Code  Gb  rs_ctl_cmd.o [1]
+rs_ctl_dev_close         0x800'ef9d    0xc  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_open          0x800'ef8f    0xe  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_read          0x800'eff9   0x90  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_term_get      0x800'f0d7   0x42  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_term_set      0x800'f089   0x4e  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_term_trig_clear
+                         0x800'f119   0x42  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_term_trig_set
+                         0x800'f15b   0x46  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_dev_write         0x800'efa9   0x50  Code  Gb  rs_ctl_dev.o [1]
+rs_ctl_op_DISTM          0x800'f321    0xe  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_DSLEEP         0x800'f2af    0xe  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_ENATM          0x800'f313    0xe  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_RDSR           0x800'f2d1   0x12  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_READ           0x800'f2fb   0x18  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_RUNTM          0x800'f32f    0xe  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_SRST           0x800'f29f   0x10  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_STPTM          0x800'f33d    0xe  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_WRITE          0x800'f2e3   0x18  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_WRSR           0x800'f2bd   0x14  Code  Gb  rs_ctl_op.o [1]
+rs_ctl_op_fast_control   0x800'f1a1   0x16  Code  Lc  rs_ctl_op.o [1]
+rs_ctl_op_read_region    0x800'f269   0x36  Code  Lc  rs_ctl_op.o [1]
+rs_ctl_op_read_status    0x800'f1d3   0x36  Code  Lc  rs_ctl_op.o [1]
+rs_ctl_op_write_region   0x800'f209   0x60  Code  Lc  rs_ctl_op.o [1]
+rs_ctl_op_write_status   0x800'f1b7   0x1c  Code  Lc  rs_ctl_op.o [1]
+rs_ctl_read_reg          0x800'f41b   0x32  Code  Gb  rs_ctl_data.o [1]
+rs_ctl_read_regs         0x800'f4a3   0x56  Code  Gb  rs_ctl_data.o [1]
+rs_ctl_write_mem         0x800'f3e5   0x18  Code  Gb  rs_ctl_data.o [1]
+rs_ctl_write_reg         0x800'f3fd   0x1e  Code  Gb  rs_ctl_data.o [1]
+rs_ctl_write_regs        0x800'f44d   0x56  Code  Gb  rs_ctl_data.o [1]
+rs_dev_close             0x801'0061    0x6  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_open              0x801'0045   0x1c  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_read              0x801'009d   0xa4  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_term_clear_trigger
+                         0x801'0231   0x26  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_term_get          0x801'0141   0x78  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_term_set          0x801'01b9   0x54  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_term_set_trigger
+                         0x801'020d   0x24  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_dev_write             0x801'0067   0x36  Code  Gb  rs_ctl_dev_poc.o [1]
+rs_get_ctl_mode_from_setup_mode
+                         0x800'd633   0x34  Code  Lc  rs24g_ctl_setup_base.o [1]
+rs_get_motion            0x800'd80b   0x96  Code  Gb  rs24g_ctl_motion.o [1]
+rs_get_sensor_lib_ver    0x800'e131   0x84  Code  Gb  rs24g_ctl_sc1233_version.o [1]
+rs_get_setup_code_handle
+                         0x800'ebe3   0x3a  Code  Gb  rs24g_ctl_setup.o [1]
+rs_get_setup_lib_ver     0x800'e1b5   0x84  Code  Gb  rs24g_ctl_setup_sc1233_version.o [1]
+rs_get_setup_res_handle
+                         0x800'ec1d   0x3a  Code  Gb  rs24g_ctl_setup.o [1]
+rs_load_seqcode          0x800'ed79   0x7a  Code  Gb  rs24g_ctl_setup.o [1]
+rs_mutex_destroy         0x800'ef7d    0x6  Code  Gb  rs_mutex.o [1]
+rs_mutex_init            0x800'ef77    0x6  Code  Gb  rs_mutex.o [1]
+rs_mutex_lock            0x800'ef83    0x6  Code  Gb  rs_mutex.o [1]
+rs_mutex_unlock          0x800'ef89    0x6  Code  Gb  rs_mutex.o [1]
+rs_op_DSLEEP             0x800'ef2f   0x48  Code  Gb  rs24g_ctl_setup.o [1]
+rs_open                  0x800'dcc9  0x106  Code  Gb  rs24g_ctl_base.o [1]
+rs_param_check           0x800'fe23  0x14a  Code  Gb  rs24g_ctl_setup_range.o [1]
+rs_param_distance_range_check
+                         0x800'ff6d   0x98  Code  Gb  rs24g_ctl_setup_range.o [1]
+rs_param_get_choice      0x800'fd0d   0x84  Code  Gb  rs24g_ctl_setup_range.o [1]
+rs_param_get_range       0x800'fc0d  0x100  Code  Gb  rs24g_ctl_setup_range.o [1]
+rs_param_init            0x800'd735   0x2a  Code  Gb  rs24g_ctl_setup_base.o [1]
+rs_param_init_local      0x800'd511   0x4e  Code  Lc  rs24g_ctl_setup_base.o [1]
+rs_read_reg              0x800'ee91   0x9e  Code  Gb  rs24g_ctl_setup.o [1]
+rs_read_smoothed_level   0x800'dabd  0x10a  Code  Gb  rs24g_ctl_motion.o [1]
+rs_resource_alloc_holder
+                         0x800'dc35   0x5a  Code  Lc  rs24g_ctl_base.o [1]
+rs_resource_free_holder
+                         0x800'dc8f   0x3a  Code  Lc  rs24g_ctl_base.o [1]
+rs_resume                0x800'e121    0xe  Code  Gb  rs24g_ctl_base.o [1]
+rs_set_sensor_ctl_type   0x800'f6b9   0x72  Code  Gb  rs24g_ctl_sensor_ctl_type.o [1]
+rs_set_smoothed_level_operation
+                         0x800'd957   0x30  Code  Lc  rs24g_ctl_motion.o [1]
+rs_setup_alpha           0x800'e26b   0x20  Code  Gb  setup_motion.o [1]
+rs_setup_beta            0x800'e317   0x20  Code  Gb  setup_distance.o [1]
+rs_setup_getcode         0x800'f7e5   0x64  Code  Gb  setup_common.o [1]
+rs_setup_getcode_ext     0x800'f849   0x58  Code  Gb  setup_common.o [1]
+rs_setup_getmode_ext     0x800'f8a1   0x32  Code  Gb  setup_common.o [1]
+rs_setup_hpf             0x800'faf5   0xdc  Code  Gb  setup_common.o [1]
+rs_setup_interval        0x800'fad5   0x20  Code  Gb  setup_common.o [1]
+rs_setup_motion_threshold
+                         0x800'e28b   0x1e  Code  Gb  setup_motion.o [1]
+rs_setup_param           0x800'd75f   0x7c  Code  Gb  rs24g_ctl_setup_base.o [1]
+rs_setup_param_local     0x800'd55f   0xd4  Code  Lc  rs24g_ctl_setup_base.o [1]
+rs_setup_range           0x800'f989  0x14c  Code  Gb  setup_common.o [1]
+rs_setup_range_motion    0x800'e2c5   0x20  Code  Gb  setup_motion.o [1]
+rs_setup_range_peak      0x800'e337   0x46  Code  Gb  setup_distance.o [1]
+rs_setup_seq             0x800'ec93   0xe6  Code  Lc  rs24g_ctl_setup.o [1]
+rs_setup_smoothed_level
+                         0x800'd987  0x136  Code  Gb  rs24g_ctl_motion.o [1]
+rs_setup_startup_count   0x800'e2a9   0x1c  Code  Gb  setup_motion.o [1]
+rs_setup_update_code_after_getcode
+                         0x800'f7a1   0x44  Code  Lc  setup_common.o [1]
+rs_shutdown              0x800'de27   0x66  Code  Gb  rs24g_ctl_base.o [1]
+rs_smoothed_level_mem_postp
+                         0x800'd919   0x3e  Code  Lc  rs24g_ctl_motion.o [1]
+rs_smoothed_level_mem_prep
+                         0x800'd8a1   0x78  Code  Lc  rs24g_ctl_motion.o [1]
+rs_start                 0x800'dfd1    0xe  Code  Gb  rs24g_ctl_base.o [1]
+rs_start_body            0x800'de8d  0x140  Code  Lc  rs24g_ctl_base.o [1]
+rs_stop                  0x800'e075   0xac  Code  Gb  rs24g_ctl_base.o [1]
+rs_stop_wait             0x800'dfdf   0x96  Code  Lc  rs24g_ctl_base.o [1]
+rs_update_param_local    0x800'd667   0xc2  Code  Lc  rs24g_ctl_setup_base.o [1]
+rs_usleep                0x800'f367    0xc  Code  Gb  rs_sleep.o [1]
+rs_write_reg             0x800'edf3   0x9e  Code  Gb  rs24g_ctl_setup.o [1]
+rvalue                  0x2000'0dc8    0x4  Data  Gb  rs_ctl_cmd_sc1233.o [1]
+sFileInfo               0x2000'0be0   0x80  Data  Lc  XShHandles.o [2]
+save_data_section        0x800'380f   0x98  Code  Lc  rs24g_bin.o [1]
+save_general_section     0x800'393d   0x38  Code  Lc  rs24g_bin.o [1]
+save_sections            0x800'39fd   0x84  Code  Lc  rs24g_bin.o [1]
+sc1233_motion_calibration
+                         0x800'c447  0x192  Code  Gb  rs24g_sample_sc1233.o [1]
+scalbln                  0x800'2b19         Code  Gb  ldexp.o [3]
+scalblnl                 0x800'2b19         Code  Gb  ldexp.o [3]
+scalbn                   0x800'2b19         Code  Gb  ldexp.o [3]
+scalbnl                  0x800'2b19         Code  Gb  ldexp.o [3]
+scale                    0x800'2791   0x46  Code  Lc  xprintffull.o [2]
+sec_hand                0x2000'0ddc    0x4  Data  Lc  xfail_s.o [2]
+section_header_size      0x801'2a1c    0x4  Data  Lc  rs24g_bin.o [1]
+segment_holding          0x800'018d   0x1a  Code  Lc  dlmalloc.o [2]
+strchr                   0x800'28b9         Code  Gb  strchr.o [4]
+strlen                   0x800'2911         Code  Gb  strlen.o [4]
+table_read_reg           0x800'f76f   0x32  Code  Gb  setup_common.o [1]
+time                     0x800'f72b    0x4  Code  Gb  time_trampoline.o [2]
+uint32_to_uint8          0x800'f3b5   0x16  Code  Lc  rs_ctl_data.o [1]
+uint8_to_uint32          0x800'f3cb   0x1a  Code  Lc  rs_ctl_data.o [1]
+update_body_size         0x800'3b99   0x40  Code  Lc  rs24g_bin.o [1]
+usleep                   0x800'f34d   0x1a  Code  Gb  rs_sleep.o [1]
+uwTick                  0x2000'0dd4    0x4  Data  Gb  stm32l4xx_hal.o [1]
+uwTickFreq              0x2000'0008    0x4  Data  Gb  stm32l4xx_hal.o [1]
+uwTickPrio              0x2000'0004    0x4  Data  Gb  stm32l4xx_hal.o [1]
+
+
+[1] = E:\STM32L431CCT6\CubeMX\EWARM\CubeMX\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  44'548 bytes of readonly  code memory
+  32'172 bytes of readonly  data memory
+  40'928 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

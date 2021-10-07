@@ -1,0 +1,15 @@
+<map id="rs_ctl_cmd_wait_and_get_sensor_data" name="rs_ctl_cmd_wait_and_get_sensor_data">
+<area shape="rect" id="node1" title=" " alt="" coords="5,150,151,191"/>
+<area shape="rect" id="node2" href="$rs__ctl__cmd_8c.html#a4296e1e225df823706083a0429d47081" title=" " alt="" coords="199,107,388,133"/>
+<area shape="rect" id="node12" href="$rs__ctl__dev_8h.html#a64675f0cf9dccafc1c125cda4a2b1f64" title=" " alt="" coords="208,157,379,184"/>
+<area shape="rect" id="node13" href="$rs__sleep_8h.html#a3225d3cf811e3fa47d220719edbc2012" title=" " alt="" coords="254,208,333,235"/>
+<area shape="rect" id="node3" href="$rs__ctl__cmd_8c.html#a16c2ff21dd2b2bea7f75c53a9b161a83" title=" " alt="" coords="452,5,524,32"/>
+<area shape="rect" id="node6" href="$rs__ctl__cmd_8c.html#af620f88a15ab99bbfd33c03a373a1f33" title=" " alt="" coords="436,107,540,133"/>
+<area shape="rect" id="node7" href="$rs__ctl__op_8c.html#a9a733f98c07094fa7d5d7d0e47e639a4" title=" " alt="" coords="589,56,716,83"/>
+<area shape="rect" id="node8" href="$rs__ctl__op_8c.html#a77e54d73883959265c277e775ec7f87e" title=" " alt="" coords="588,157,717,184"/>
+<area shape="rect" id="node10" href="$rs__ctl__cmd_8c.html#a2931512661ef4d2dd8e3f8eebf9e8b6c" title=" " alt="" coords="443,208,533,235"/>
+<area shape="rect" id="node4" href="$rs__ctl__data_8c.html#a48a5fdc73c72cf3c66d82fbca22fc709" title=" " alt="" coords="591,5,714,32"/>
+<area shape="rect" id="node5" href="$rs__ctl__op_8c.html#aa2cd824a95a9ca2f69bfbf5f3cab4fd0" title=" " alt="" coords="765,56,885,83"/>
+<area shape="rect" id="node9" href="$rs__ctl__data_8c.html#acaea758188a0283fd16968cb84dc7f5c" title=" " alt="" coords="597,107,708,133"/>
+<area shape="rect" id="node11" href="$rs__ctl__op_8c.html#ac0ae4838f94d09c5403d676f9bd2950c" title=" " alt="" coords="589,208,717,235"/>
+</map>

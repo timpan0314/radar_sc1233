@@ -1,0 +1,9 @@
+<map id="include/rs_sleep.h" name="include/rs_sleep.h">
+<area shape="rect" id="node1" title=" " alt="" coords="391,5,518,32"/>
+<area shape="rect" id="node2" href="$rs24g__ctl__base_8c.html" title=" " alt="" coords="5,80,131,121"/>
+<area shape="rect" id="node3" href="$rs24g__ctl__motion_8c.html" title=" " alt="" coords="155,80,291,121"/>
+<area shape="rect" id="node4" href="$rs24g__ctl__setup_8c.html" title=" " alt="" coords="314,80,443,121"/>
+<area shape="rect" id="node5" href="$rs__ctl__cmd_8c.html" title=" " alt="" coords="467,80,594,121"/>
+<area shape="rect" id="node6" href="$rs__ctl__cmd__sc1233_8c.html" title=" " alt="" coords="618,80,745,121"/>
+<area shape="rect" id="node7" href="$rs__ctl__op_8c.html" title=" " alt="" coords="769,87,927,114"/>
+</map>

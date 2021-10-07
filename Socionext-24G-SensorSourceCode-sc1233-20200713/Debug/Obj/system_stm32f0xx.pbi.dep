@@ -1,0 +1,16 @@
+system_stm32f0xx.pbi: \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\user\Src\system_stm32f0xx.c \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include/stm32f071xb.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\core_cm0.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include/cmsis_version.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include/cmsis_compiler.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  E:\Socionext-24G-SensorSourceCode-sc1233-20200713\CMSIS\Device\ST\STM32F0xx\Include/system_stm32f0xx.h

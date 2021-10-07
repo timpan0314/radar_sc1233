@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<iarProjectConnection name="src" oneShot="false">
+	<includePath>
+		<path>$PROJ_DIR$\source\include</path>
+		<path>$PROJ_DIR$\source\include\defs</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\2d</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\distance_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_fft_1rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_fft_2rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_iq_1rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_iq_2rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\motion_wide</path>
+		<path>$PROJ_DIR$\source\lib\convbin\include</path>
+		<path>$PROJ_DIR$\source\lib\dllsearch\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_bin_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_bin_platform\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\sc1233\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\include\local</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\sc1233\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\sc1233\include\local</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev_evk\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev_poc\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_lib\include</path>
+	</includePath>
+	<asmIncludePath>
+		<path>$PROJ_DIR$\source\include</path>
+		<path>$PROJ_DIR$\source\include\defs</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\2d</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\distance_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_fft_1rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_fft_2rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_iq_1rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\fifo_iq_2rx_wide</path>
+		<path>$PROJ_DIR$\source\include\setup\evk\motion_wide</path>
+		<path>$PROJ_DIR$\source\lib\convbin\include</path>
+		<path>$PROJ_DIR$\source\lib\dllsearch\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_bin_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_bin_platform\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\sc1233\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\include\local</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\sc1233\include</path>
+		<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\sc1233\include\local</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev_evk\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_dev_poc\include</path>
+		<path>$PROJ_DIR$\source\lib\rs_ctl_lib\include</path>
+	</asmIncludePath>
+	<files>
+		<group name="source">
+			<path>$PROJ_DIR$\source\rs24g_sample_sc1233.c</path>
+		</group>
+		<group name="source\lib\dllsearch">
+			<path>$PROJ_DIR$\source\lib\dllsearch\dllsearch.cpp</path>
+		</group>
+		<group name="source\lib\rs24g_bin_core">
+			<path>$PROJ_DIR$\source\lib\rs24g_bin_core\rs24g_bin.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_bin_core\rs24g_code2.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_bin_core\rs24g_code2_local.c</path>
+		</group>
+		<group name="source\lib\rs24g_bin_platform">
+			<path>$PROJ_DIR$\source\lib\rs24g_bin_platform\rs24g_bin_interface.c</path>
+		</group>
+		<group name="source\lib\rs24g_ctl_core">
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_2rx.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_base.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_common.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_distance.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_fifo.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_motion.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_sensor_ctl_type.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\rs24g_ctl_setup.c</path>
+		</group>
+		<group name="source\lib\rs24g_ctl_core\sc1233">
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_core\sc1233\rs24g_ctl_sc1233_version.c</path>
+		</group>
+		<group name="source\lib\rs24g_ctl_setup_core">
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\rs24g_ctl_setup_base.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\rs24g_ctl_setup_range.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_2d.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_bin.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_common.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_distance.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_distance_wide.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_fifo.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_fifo_fft_1rx_wide.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_fifo_fft_2rx_wide.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_fifo_iq_1rx_wide.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_fifo_iq_2rx_wide.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_motion.c</path>
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\setup_motion_wide.c</path>
+		</group>
+		<group name="source\lib\rs24g_ctl_setup_core\sc1233">
+			<path>$PROJ_DIR$\source\lib\rs24g_ctl_setup_core\sc1233\rs24g_ctl_setup_sc1233_version.c</path>
+		</group>
+		<group name="source\lib\rs_ctl_dev">
+			<path>$PROJ_DIR$\source\lib\rs_ctl_dev\rs_ctl_dev.c</path>
+		</group>
+		<group name="source\lib\rs_ctl_dev_evk">
+			<path>$PROJ_DIR$\source\lib\rs_ctl_dev_evk\rs_ctl_dev_evk.cpp</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_dev_evk\rs_ftdi.cpp</path>
+		</group>
+		<group name="source\lib\rs_ctl_dev_poc">
+			<path>$PROJ_DIR$\source\lib\rs_ctl_dev_poc\rs_ctl_dev_poc.cpp</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_dev_poc\rs_i2c.cpp</path>
+		</group>
+		<group name="source\lib\rs_ctl_lib">
+			<path>$PROJ_DIR$\source\lib\rs_ctl_lib\rs_ctl_cmd.c</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_lib\rs_ctl_cmd_sc1233.c</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_lib\rs_ctl_data.c</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_lib\rs_ctl_op.c</path>
+			<path>$PROJ_DIR$\source\lib\rs_ctl_lib\rs_ctl_sensor_data.c</path>
+		</group>
+		<group name="source\lib\rs_platform">
+			<path>$PROJ_DIR$\source\lib\rs_platform\rs_mutex.cpp</path>
+			<path>$PROJ_DIR$\source\lib\rs_platform\rs_sleep.cpp</path>
+		</group>
+	</files>
+</iarProjectConnection>

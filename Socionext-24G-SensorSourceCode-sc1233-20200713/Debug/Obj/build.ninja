@@ -1,0 +1,138 @@
+#Generating source browse information for project radar_2d
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build rs24g_bin.pbi : index rs24g_bin.xcl
+build rs24g_code2.pbi : index rs24g_code2.xcl
+build rs24g_code2_local.pbi : index rs24g_code2_local.xcl
+build rs24g_bin_interface.pbi : index rs24g_bin_interface.xcl
+build rs24g_ctl_sc1233_version.pbi : index rs24g_ctl_sc1233_version.xcl
+build rs24g_ctl_2rx.pbi : index rs24g_ctl_2rx.xcl
+build rs24g_ctl_base.pbi : index rs24g_ctl_base.xcl
+build rs24g_ctl_common.pbi : index rs24g_ctl_common.xcl
+build rs24g_ctl_distance.pbi : index rs24g_ctl_distance.xcl
+build rs24g_ctl_fifo.pbi : index rs24g_ctl_fifo.xcl
+build rs24g_ctl_motion.pbi : index rs24g_ctl_motion.xcl
+build rs24g_ctl_sensor_ctl_type.pbi : index rs24g_ctl_sensor_ctl_type.xcl
+build rs24g_ctl_setup.pbi : index rs24g_ctl_setup.xcl
+build rs24g_ctl_setup_sc1233_version.pbi : index rs24g_ctl_setup_sc1233_version.xcl
+build rs24g_ctl_setup_base.pbi : index rs24g_ctl_setup_base.xcl
+build rs24g_ctl_setup_range.pbi : index rs24g_ctl_setup_range.xcl
+build setup_2d.pbi : index setup_2d.xcl
+build setup_bin.pbi : index setup_bin.xcl
+build setup_common.pbi : index setup_common.xcl
+build setup_distance.pbi : index setup_distance.xcl
+build setup_distance_wide.pbi : index setup_distance_wide.xcl
+build setup_fifo.pbi : index setup_fifo.xcl
+build setup_fifo_fft_1rx_wide.pbi : index setup_fifo_fft_1rx_wide.xcl
+build setup_fifo_fft_2rx_wide.pbi : index setup_fifo_fft_2rx_wide.xcl
+build setup_fifo_iq_1rx_wide.pbi : index setup_fifo_iq_1rx_wide.xcl
+build setup_fifo_iq_2rx_wide.pbi : index setup_fifo_iq_2rx_wide.xcl
+build setup_motion.pbi : index setup_motion.xcl
+build setup_motion_wide.pbi : index setup_motion_wide.xcl
+build rs_ctl_dev.pbi : index rs_ctl_dev.xcl
+build rs_ctl_dev_poc.pbi : index rs_ctl_dev_poc.xcl
+build rs_ctl_cmd.pbi : index rs_ctl_cmd.xcl
+build rs_ctl_cmd_sc1233.pbi : index rs_ctl_cmd_sc1233.xcl
+build rs_ctl_data.pbi : index rs_ctl_data.xcl
+build rs_ctl_op.pbi : index rs_ctl_op.xcl
+build rs_ctl_sensor_data.pbi : index rs_ctl_sensor_data.xcl
+build rs_mutex.pbi : index rs_mutex.xcl
+build rs_sleep.pbi : index rs_sleep.xcl
+build rs24g_sample_sc1233.pbi : index rs24g_sample_sc1233.xcl
+build stm32f0xx_hal.pbi : index stm32f0xx_hal.xcl
+build stm32f0xx_hal_adc.pbi : index stm32f0xx_hal_adc.xcl
+build stm32f0xx_hal_adc_ex.pbi : index stm32f0xx_hal_adc_ex.xcl
+build stm32f0xx_hal_can.pbi : index stm32f0xx_hal_can.xcl
+build stm32f0xx_hal_cec.pbi : index stm32f0xx_hal_cec.xcl
+build stm32f0xx_hal_comp.pbi : index stm32f0xx_hal_comp.xcl
+build stm32f0xx_hal_cortex.pbi : index stm32f0xx_hal_cortex.xcl
+build stm32f0xx_hal_crc.pbi : index stm32f0xx_hal_crc.xcl
+build stm32f0xx_hal_crc_ex.pbi : index stm32f0xx_hal_crc_ex.xcl
+build stm32f0xx_hal_dac.pbi : index stm32f0xx_hal_dac.xcl
+build stm32f0xx_hal_dac_ex.pbi : index stm32f0xx_hal_dac_ex.xcl
+build stm32f0xx_hal_dma.pbi : index stm32f0xx_hal_dma.xcl
+build stm32f0xx_hal_exti.pbi : index stm32f0xx_hal_exti.xcl
+build stm32f0xx_hal_flash.pbi : index stm32f0xx_hal_flash.xcl
+build stm32f0xx_hal_flash_ex.pbi : index stm32f0xx_hal_flash_ex.xcl
+build stm32f0xx_hal_gpio.pbi : index stm32f0xx_hal_gpio.xcl
+build stm32f0xx_hal_i2c.pbi : index stm32f0xx_hal_i2c.xcl
+build stm32f0xx_hal_i2c_ex.pbi : index stm32f0xx_hal_i2c_ex.xcl
+build stm32f0xx_hal_i2s.pbi : index stm32f0xx_hal_i2s.xcl
+build stm32f0xx_hal_irda.pbi : index stm32f0xx_hal_irda.xcl
+build stm32f0xx_hal_iwdg.pbi : index stm32f0xx_hal_iwdg.xcl
+build stm32f0xx_hal_pcd.pbi : index stm32f0xx_hal_pcd.xcl
+build stm32f0xx_hal_pcd_ex.pbi : index stm32f0xx_hal_pcd_ex.xcl
+build stm32f0xx_hal_pwr.pbi : index stm32f0xx_hal_pwr.xcl
+build stm32f0xx_hal_pwr_ex.pbi : index stm32f0xx_hal_pwr_ex.xcl
+build stm32f0xx_hal_rcc.pbi : index stm32f0xx_hal_rcc.xcl
+build stm32f0xx_hal_rcc_ex.pbi : index stm32f0xx_hal_rcc_ex.xcl
+build stm32f0xx_hal_rtc.pbi : index stm32f0xx_hal_rtc.xcl
+build stm32f0xx_hal_rtc_ex.pbi : index stm32f0xx_hal_rtc_ex.xcl
+build stm32f0xx_hal_smartcard.pbi : index stm32f0xx_hal_smartcard.xcl
+build stm32f0xx_hal_smartcard_ex.pbi : index stm32f0xx_hal_smartcard_ex.xcl
+build stm32f0xx_hal_smbus.pbi : index stm32f0xx_hal_smbus.xcl
+build stm32f0xx_hal_spi.pbi : index stm32f0xx_hal_spi.xcl
+build stm32f0xx_hal_spi_ex.pbi : index stm32f0xx_hal_spi_ex.xcl
+build stm32f0xx_hal_tim.pbi : index stm32f0xx_hal_tim.xcl
+build stm32f0xx_hal_tim_ex.pbi : index stm32f0xx_hal_tim_ex.xcl
+build stm32f0xx_hal_tsc.pbi : index stm32f0xx_hal_tsc.xcl
+build stm32f0xx_hal_uart.pbi : index stm32f0xx_hal_uart.xcl
+build stm32f0xx_hal_uart_ex.pbi : index stm32f0xx_hal_uart_ex.xcl
+build stm32f0xx_hal_usart.pbi : index stm32f0xx_hal_usart.xcl
+build stm32f0xx_hal_usart_ex.pbi : index stm32f0xx_hal_usart_ex.xcl
+build stm32f0xx_hal_wwdg.pbi : index stm32f0xx_hal_wwdg.xcl
+build stm32f0xx_ll_adc.pbi : index stm32f0xx_ll_adc.xcl
+build stm32f0xx_ll_comp.pbi : index stm32f0xx_ll_comp.xcl
+build stm32f0xx_ll_crc.pbi : index stm32f0xx_ll_crc.xcl
+build stm32f0xx_ll_crs.pbi : index stm32f0xx_ll_crs.xcl
+build stm32f0xx_ll_dac.pbi : index stm32f0xx_ll_dac.xcl
+build stm32f0xx_ll_dma.pbi : index stm32f0xx_ll_dma.xcl
+build stm32f0xx_ll_exti.pbi : index stm32f0xx_ll_exti.xcl
+build stm32f0xx_ll_gpio.pbi : index stm32f0xx_ll_gpio.xcl
+build stm32f0xx_ll_i2c.pbi : index stm32f0xx_ll_i2c.xcl
+build stm32f0xx_ll_pwr.pbi : index stm32f0xx_ll_pwr.xcl
+build stm32f0xx_ll_rcc.pbi : index stm32f0xx_ll_rcc.xcl
+build stm32f0xx_ll_rtc.pbi : index stm32f0xx_ll_rtc.xcl
+build stm32f0xx_ll_spi.pbi : index stm32f0xx_ll_spi.xcl
+build stm32f0xx_ll_tim.pbi : index stm32f0xx_ll_tim.xcl
+build stm32f0xx_ll_usart.pbi : index stm32f0xx_ll_usart.xcl
+build stm32f0xx_ll_usb.pbi : index stm32f0xx_ll_usb.xcl
+build stm32f0xx_ll_utils.pbi : index stm32f0xx_ll_utils.xcl
+build main.pbi : index main.xcl
+build stm32f0xx_hal_msp.pbi : index stm32f0xx_hal_msp.xcl
+build stm32f0xx_it.pbi : index stm32f0xx_it.xcl
+build system_stm32f0xx.pbi : index system_stm32f0xx.xcl
+build radar_2d_part0.pbi : link rs24g_bin.pbi rs24g_code2.pbi rs24g_code2_local.pbi rs24g_bin_interface.pbi rs24g_ctl_sc1233_version.pbi rs24g_ctl_2rx.pbi rs24g_ctl_base.pbi rs24g_ctl_common.pbi rs24g_ctl_distance.pbi rs24g_ctl_fifo.pbi
+build radar_2d_part1.pbi : link rs24g_ctl_motion.pbi rs24g_ctl_sensor_ctl_type.pbi rs24g_ctl_setup.pbi rs24g_ctl_setup_sc1233_version.pbi rs24g_ctl_setup_base.pbi rs24g_ctl_setup_range.pbi setup_2d.pbi setup_bin.pbi setup_common.pbi setup_distance.pbi
+build radar_2d_part2.pbi : link setup_distance_wide.pbi setup_fifo.pbi setup_fifo_fft_1rx_wide.pbi setup_fifo_fft_2rx_wide.pbi setup_fifo_iq_1rx_wide.pbi setup_fifo_iq_2rx_wide.pbi setup_motion.pbi setup_motion_wide.pbi rs_ctl_dev.pbi rs_ctl_dev_poc.pbi
+build radar_2d_part3.pbi : link rs_ctl_cmd.pbi rs_ctl_cmd_sc1233.pbi rs_ctl_data.pbi rs_ctl_op.pbi rs_ctl_sensor_data.pbi rs_mutex.pbi rs_sleep.pbi rs24g_sample_sc1233.pbi stm32f0xx_hal.pbi stm32f0xx_hal_adc.pbi
+build radar_2d_part4.pbi : link stm32f0xx_hal_adc_ex.pbi stm32f0xx_hal_can.pbi stm32f0xx_hal_cec.pbi stm32f0xx_hal_comp.pbi stm32f0xx_hal_cortex.pbi stm32f0xx_hal_crc.pbi stm32f0xx_hal_crc_ex.pbi stm32f0xx_hal_dac.pbi stm32f0xx_hal_dac_ex.pbi stm32f0xx_hal_dma.pbi
+build radar_2d_part5.pbi : link stm32f0xx_hal_exti.pbi stm32f0xx_hal_flash.pbi stm32f0xx_hal_flash_ex.pbi stm32f0xx_hal_gpio.pbi stm32f0xx_hal_i2c.pbi stm32f0xx_hal_i2c_ex.pbi stm32f0xx_hal_i2s.pbi stm32f0xx_hal_irda.pbi stm32f0xx_hal_iwdg.pbi stm32f0xx_hal_pcd.pbi
+build radar_2d_part6.pbi : link stm32f0xx_hal_pcd_ex.pbi stm32f0xx_hal_pwr.pbi stm32f0xx_hal_pwr_ex.pbi stm32f0xx_hal_rcc.pbi stm32f0xx_hal_rcc_ex.pbi stm32f0xx_hal_rtc.pbi stm32f0xx_hal_rtc_ex.pbi stm32f0xx_hal_smartcard.pbi stm32f0xx_hal_smartcard_ex.pbi stm32f0xx_hal_smbus.pbi
+build radar_2d_part7.pbi : link stm32f0xx_hal_spi.pbi stm32f0xx_hal_spi_ex.pbi stm32f0xx_hal_tim.pbi stm32f0xx_hal_tim_ex.pbi stm32f0xx_hal_tsc.pbi stm32f0xx_hal_uart.pbi stm32f0xx_hal_uart_ex.pbi stm32f0xx_hal_usart.pbi stm32f0xx_hal_usart_ex.pbi stm32f0xx_hal_wwdg.pbi
+build radar_2d_part8.pbi : link stm32f0xx_ll_adc.pbi stm32f0xx_ll_comp.pbi stm32f0xx_ll_crc.pbi stm32f0xx_ll_crs.pbi stm32f0xx_ll_dac.pbi stm32f0xx_ll_dma.pbi stm32f0xx_ll_exti.pbi stm32f0xx_ll_gpio.pbi stm32f0xx_ll_i2c.pbi stm32f0xx_ll_pwr.pbi
+build radar_2d_part9.pbi : link stm32f0xx_ll_rcc.pbi stm32f0xx_ll_rtc.pbi stm32f0xx_ll_spi.pbi stm32f0xx_ll_tim.pbi stm32f0xx_ll_usart.pbi stm32f0xx_ll_usb.pbi stm32f0xx_ll_utils.pbi main.pbi stm32f0xx_hal_msp.pbi stm32f0xx_it.pbi
+build radar_2d_part10.pbi : link system_stm32f0xx.pbi
+build radar_2d.pbd : link radar_2d_part0.pbi radar_2d_part1.pbi radar_2d_part2.pbi radar_2d_part3.pbi radar_2d_part4.pbi radar_2d_part5.pbi radar_2d_part6.pbi radar_2d_part7.pbi radar_2d_part8.pbi radar_2d_part9.pbi radar_2d_part10.pbi
+build radar_2d.pbw : browsedata radar_2d.pbd
+
+
